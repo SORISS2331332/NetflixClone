@@ -10,7 +10,7 @@ namespace NetflixCloneMAUI.Services
 {
     public partial class TmdbService
     {
-        private const string ApiKey = "cfc77f3ffd3c962d9e47fbf1f6262d73"; // generate it from tmdb website
+        private const string ApiKey = ""; // generate it from tmdb website
         public const string TmdbHttpClientName = "TmdbClient";
 
         private readonly IHttpClientFactory _httpClientFactory;
